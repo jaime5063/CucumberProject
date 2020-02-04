@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: com.hrms.runners.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 13.075 s <<< FAILURE! - in com.hrms.runners.SmokeRunner
+Add Employee.Add new Employee  Time elapsed: 9.345 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Cesars-iMac.lan1', ip: '192.168.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/d0/7z2621sd7bn...}, goog:chromeOptions: {debuggerAddress: localhost:56826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b1aae5868a0e23ee1b4aeb781269e61
+*** Element info: {Using=id, value=menu_pim_addEmployee}
+
+Add Employee.Add new Employee  Time elapsed: 9.345 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Cesars-iMac.lan1', ip: '192.168.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/d0/7z2621sd7bn...}, goog:chromeOptions: {debuggerAddress: localhost:56826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b1aae5868a0e23ee1b4aeb781269e61
+
+Login.Valid login  Time elapsed: 3.409 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot activate web view
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Cesars-iMac.lan1', ip: '192.168.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/d0/7z2621sd7bn...}, goog:chromeOptions: {debuggerAddress: localhost:56846}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e7447bafe0d24592caddbb4a7a37694
+
